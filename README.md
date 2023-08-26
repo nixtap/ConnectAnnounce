@@ -9,6 +9,15 @@
 
 ## Convars
 ```
+// [bool] 启用插件。
 connect_announce_enabled "1"
+
+// [float] 请求超时时间(秒)。
 connect_announce_timeout "10"
+
+// [float] 显示玩家信息延迟。
+connect_announce_delay "2"
+
+// [bool] 更换地图时，不再显示已连接玩家的信息。
+connect_announce_only_once "1"
 ```
